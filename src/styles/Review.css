@@ -1,0 +1,47 @@
+@media only screen and (min-width: 1250px) {
+    .case-description {
+        width: 600px !important;
+    }
+}
+
+.case-description {
+    height: 600px !important;
+}
+
+.condition {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 600px;
+    display: block;
+    overflow: hidden
+}
+
+.list {
+    overflow: hidden;
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+.next-case {
+    margin-top: 10% !important;
+}
+
+.form-field {
+    color: #7D4CDB;
+}
+
+.no-more-cases {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 100%;
+    margin-top: 25%;
+}
