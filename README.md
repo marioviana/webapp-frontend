@@ -12,3 +12,7 @@ $ source .env
 
 # development
 $ npm run dev
+
+# Mock Data
+email: mariovianaferreira@gmail.com
+password: teste
